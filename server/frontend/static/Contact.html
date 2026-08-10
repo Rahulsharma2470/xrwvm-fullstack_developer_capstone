@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        /* Navigation bar */
+        .navbar {
+            height: 105px;
+            background-color: #10c4c9;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+        }
+
+        .navbar .brand {
+            font-size: 36px;
+            font-weight: bold;
+            color: #111;
+            margin-right: 80px;
+        }
+
+        .navbar a {
+            font-size: 24px;
+            text-decoration: none;
+            color: #111;
+            margin-right: 25px;
+        }
+
+        .navbar a:hover {
+            color: white;
+        }
+
+        .navbar a.active {
+            font-weight: normal;
+        }
+
+        /* Main contact container */
+        .contact-container {
+            width: 80%;
+            margin: 45px auto 20px auto;
+            border: 2px solid #cfcfcf;
+            border-radius: 55px;
+            box-shadow: 4px 5px 5px #777;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        /* First image */
+        .car-image {
+            display: block;
+            width: 58%;
+            height: 330px;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+
+        /* Horizontal line */
+        .separator {
+            border: 0;
+            border-top: 1px solid #cfcfcf;
+            margin: 15px 0 0 0;
+        }
+
+        /* Bottom section */
+        .contact-content {
+            display: flex;
+            min-height: 300px;
+        }
+
+        /* Left side */
+        .contact-image-section {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 3px solid #444;
+        }
+
+        .contact-image {
+            width: 220px;
+            height: auto;
+        }
+
+        /* Right side */
+        .contact-details {
+            width: 50%;
+            text-align: center;
+            color: #5b8fe8;
+            font-size: 20px;
+            line-height: 1.35;
+            padding: 15px 20px;
+            box-sizing: border-box;
+        }
+
+        .contact-details p {
+            margin: 7px 0;
+        }
+
+        .contact-details strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+
+        <div class="brand">
+            Dealerships
+        </div>
+
+        <a href="/">
+            Home
+        </a>
+
+        <a href="/about/">
+            About Us
+        </a>
+
+        <a href="/contact/" class="active">
+            Contact Us
+        </a>
+
+    </div>
+
+
+    <!-- Contact Page -->
+    <div class="contact-container">
+
+        <!-- First image: cars.jpeg -->
+        <img
+            src="/static/cars.jpeg"
+            alt="Dealership Cars"
+            class="car-image"
+        >
+
+        <hr class="separator">
+
+
+        <!-- Bottom Contact Section -->
+        <div class="contact-content">
+
+            <!-- Second image: contactus.png -->
+            <div class="contact-image-section">
+
+                <img
+                    src="/static/contactus.png"
+                    alt="Customer Service"
+                    class="contact-image"
+                >
+
+            </div>
+
+
+            <!-- Contact Information -->
+            <div class="contact-details">
+
+                <p>
+                    <strong>Contact Customer Service</strong>
+                </p>
+
+                <p>
+                    support@bestcars.com
+                </p>
+
+                <p>
+                    <strong>Contact our National Advertising team</strong>
+                </p>
+
+                <p>
+                    NationalSales@bestcars.com
+                </p>
+
+                <p>
+                    <strong>Contact our Public Relations team</strong>
+                </p>
+
+                <p>
+                    PR@bestcars.com
+                </p>
+
+                <p>
+                    <strong>Contact the bestcars.com offices</strong>
+                </p>
+
+                <p>
+                    312-611-1111
+                </p>
+
+                <p>
+                    <strong>Become a bestcars.com car dealer</strong>
+                </p>
+
+                <p>
+                    Visit growwithbestcars.com
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
